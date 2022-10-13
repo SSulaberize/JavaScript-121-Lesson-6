@@ -45,7 +45,7 @@ fetch ('https://reqres.in/api/unknown', {
     const fragment = document.createDocumentFragment();
     responseInfo.data.forEach((element) => {
         let li = document.createElement ('li');
-         li.innerText = `${element.name} ${element.year}`;
+         li.innerText = `${element.color} ${element.pantone_value}`;
          fragment.appendChild(li);
         });
     
