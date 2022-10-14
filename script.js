@@ -19,8 +19,16 @@
 //         document.getElementById('api').appendChild(ul);
 //     }
 
+//     function renderError(){
+//         let p = document.createElement('p');
+//             p.innerText = 'Server Error';
+//             p.style.color = 'red';
+//             document.getElementById('api').appendChild(p);
+//         }
+
 //     let requist = new XMLHttpRequest();
 //     requist.addEventListener ('load', pageRender);
+//     requist.addEventListener ('error', renderError)
 //     requist.open('GET', 'https://reqres.in/api/unknown');
 //     requist.send();
 
